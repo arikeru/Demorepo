@@ -21,7 +21,7 @@ function Set-PIMSettings {
     
     Write-Host "===================================================================================================="
     if (-not $ExecuteChange) {
-        Write-Host "Current: Drift Detection Run"
+        Write-Host "Current: Drift Detection 1Run"
     } else {
         Write-Host "Current: Deployment Run"
     }
